@@ -1,0 +1,23 @@
+# --- Personal / private: NEVER commit ---
+# your resume path + experience
+config.json
+# scraped job data + generated Excels
+results/
+# your seen-jobs tracking state
+history.json
+# scan logs
+last_scan.txt
+last_default.txt
+# API keys (if added later)
+.env
+# any resume files
+*.docx
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.idea/
+.vscode/

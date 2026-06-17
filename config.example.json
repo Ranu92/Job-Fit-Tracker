@@ -1,0 +1,12 @@
+{
+  "resume_path": "C:\\path\\to\\your_resume.docx",
+  "pm_experience_years": 5,
+  "exp_tolerance": 1,
+  "min_score": 50,
+  "default_location": "India",
+  "sources": [
+    "https://www.linkedin.com/jobs/search?keywords=product%20manager&location=India",
+    "https://www.linkedin.com/jobs/search?keywords=senior%20product%20manager&location=India",
+    "https://www.linkedin.com/jobs/search?keywords=product%20owner&location=India"
+  ]
+}

@@ -1,0 +1,4 @@
+# PM Job Tracker dependencies
+# Playwright is only needed for generic JavaScript-rendered sites.
+# PwC (Workday), Greenhouse and Lever use their JSON APIs (stdlib only) and work without it.
+playwright>=1.44
