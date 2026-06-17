@@ -6,23 +6,23 @@ local; nothing is uploaded.
 
 ## What it does
 
-A personal job-hunt assistant for Product Managers. Point it at any careers site
-(or just run it for a default India-wide sweep) and it will:
+A personal job-hunt assistant for Product Managers. Give it a careers-site URL —
+or just run it for a default India-wide sweep — and in one pass it:
 
-1. **Pull the latest job postings** straight from the source — Workday, Greenhouse,
-   Lever, Ashby and LinkedIn via their own APIs (so you get real posting dates),
+1. **Fetches the latest openings** directly from the source: Workday, Greenhouse,
+   Lever, Ashby and LinkedIn through their own APIs (real posting dates included),
    and any other careers page by rendering it in a real headless browser.
-2. **Read your résumé** (`.docx`) on every run and turn it into a matching profile —
-   skills (product strategy, roadmaps, agile, analytics, A/B testing) and domains
-   (fintech, telematics, SaaS, AI/LLM). Update the résumé and the matching updates
-   itself, no extra step.
-3. **Score and categorise every role** against you (see below).
-4. **Rank and export** the matches to a formatted Excel — *roles that fit your
-   experience first, then newest first* — with clickable links, one file per scan
-   (`Linkedin_17-06.xlsx`), and a `NEW` tag for anything that appeared since your
-   last run.
+2. **Reads your resume** afresh on every run and builds a matching profile from it —
+   your skills (product strategy, roadmaps, agile, analytics, A/B testing) and
+   domains (fintech, telematics, SaaS, AI/LLM). Edit the resume and the matching
+   adjusts on its own; there's no re-import step.
+3. **Scores and tags each role** against that profile — relevance and experience-fit
+   (explained below).
+4. **Ranks and exports** the matches to a formatted Excel — best experience-fit
+   first, then most recent — with clickable links, a fresh file per scan
+   (e.g. `Linkedin_17-06.xlsx`), and a `NEW` tag on anything posted since your last run.
 
-Everything runs locally. Your résumé, settings and results never leave your machine.
+Nothing leaves your machine — your resume, settings and results all stay local.
 
 ## What each column means
 
